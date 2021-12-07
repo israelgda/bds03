@@ -2,25 +2,24 @@ package com.devsuperior.bds03.controllers.exceptions;
 
 public class FieldMessage {
 
-	private String fieldlName;
+	private String fieldName;
 	private String message;
 	
 	public FieldMessage() {
 		
 	}
 
-	public FieldMessage(String fieldlName, String message) {
-		super();
-		this.fieldlName = fieldlName;
+	public FieldMessage(String fieldName, String message) {
+		this.fieldName = fieldName;
 		this.message = message;
 	}
 
 	public String getFieldlName() {
-		return fieldlName;
+		return fieldName;
 	}
 
-	public void setFieldlName(String fieldlName) {
-		this.fieldlName = fieldlName;
+	public void setFieldlName(String fieldName) {
+		this.fieldName = fieldName;
 	}
 
 	public String getMessage() {
